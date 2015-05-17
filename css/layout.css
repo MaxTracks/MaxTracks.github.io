@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(../images/landing-banner.jpg) no-repeat top center;
+   background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../images/landing-banner.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -207,7 +207,7 @@ ul#nav li.current a { color: #f0ff00; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #B6C0D2;
 }
 #about .profile-pic {
    position: relative;
