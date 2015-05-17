@@ -75,6 +75,11 @@ header .banner-text h3 span,
 header .banner-text h3 a {
    color: #f0ff00;
 }
+
+header .banner-text h3 a:hover{
+  color: #fff;
+}
+
 header .banner-text hr {
    width: 60%;
    margin: 18px auto 24px auto;
@@ -94,8 +99,8 @@ header .social li {
    margin: 0 15px;
    padding: 0;
 }
-header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a { color: #f0ff00; }
+header .social li a:hover { color: #fff; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -103,13 +108,12 @@ header .scrolldown a {
    bottom: 30px;
    left: 50%;
    margin-left: -29px;
-   color: #fff;
    display: block;
    height: 42px;
    width: 42px;
    font-size: 42px;
    line-height: 42px;
-   color: #fff;
+   color: #f0ff00;
    border-radius: 100%;
 
    -webkit-transition: all .3s ease-in-out;
@@ -117,7 +121,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+header .scrolldown a:hover { color: #fff; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -187,7 +191,7 @@ ul#nav li.current a { color: #f0ff00; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: #313C53;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -219,11 +223,11 @@ ul#nav li.current a { color: #f0ff00; }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 6px;
-   background: #444;
+   background: #1C263C;
 }
 #about .download .button:hover {
    background: #fff;
-   color: #2B2B2B;
+   color: #002311;
 }
 #about .download .button i {
    margin-right: 15px;
@@ -243,7 +247,7 @@ ul#nav li.current a { color: #f0ff00; }
 }
 
 #resume a, #resume a:visited  { color: #11ABB0; }
-#resume a:hover, #resume a:focus { color: #313131; }
+#resume a:hover, #resume a:focus { color: #313C53; }
 
 #resume h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
@@ -304,7 +308,7 @@ ul#nav li.current a { color: #f0ff00; }
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
-   color: #313131;
+   color: #313C53;
 	text-transform: uppercase;
    letter-spacing: 2px;
 	font-weight: normal;
@@ -318,7 +322,7 @@ ul#nav li.current a { color: #f0ff00; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+  	background: #313C53;
    display: inline-block;
   	height: 42px;
    line-height: 42px;
@@ -411,7 +415,7 @@ ul#nav li.current a { color: #f0ff00; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #ebeeee;
+   background: #B6C0D2;
    padding-top: 90px;
    padding-bottom: 60px;
 }
@@ -421,7 +425,7 @@ ul#nav li.current a { color: #f0ff00; }
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   color: #95A3A3;
+   color: #455268;
 }
 
 /* Portfolio Content */
@@ -641,7 +645,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+   background: #1F1F1F url(../images/testimonials-bg2.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -935,7 +939,7 @@ footer {
    position: relative;
 }
 
-footer a, footer a:visited { color: #525252; }
+footer a, footer a:visited { color: #f0ff00; }
 footer a:hover, footer a:focus { color: #fff; }
 
 /* copyright */
@@ -973,7 +977,7 @@ footer .social-links li {
     margin: 0;
     padding: 0;
     margin-left: 42px;
-    color: #F06000;
+    color: #f0ff00;
 }
 
 footer .social-links li:first-child { margin-left: 0; }
@@ -991,7 +995,7 @@ footer .social-links li:first-child { margin-left: 0; }
 	display: block;
 	width: 60px;
 	height: 60px;
-	background-color: #525252;
+	background-color: #f0ff00;
 
 	-webkit-transition: all 0.2s ease-in-out;
    -moz-transition: all 0.2s ease-in-out;
@@ -1004,4 +1008,4 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#go-top a:hover { background-color: #fff; }
