@@ -197,8 +197,8 @@ ul#nav li.current a { color: #f0ff00; }
    overflow: hidden;
 }
 
-#about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#about a, #about a:visited  { color: #f0ff00; }
+#about a:hover, #about a:focus { color: #fff; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
@@ -226,8 +226,8 @@ ul#nav li.current a { color: #f0ff00; }
    background: #1C263C;
 }
 #about .download .button:hover {
-   background: #fff;
-   color: #002311;
+   background: #f0ff00;
+   color: #fff;
 }
 #about .download .button i {
    margin-right: 15px;
