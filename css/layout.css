@@ -210,9 +210,8 @@ ul#nav li.current a { color: #f0ff00; }
    color: #B6C0D2;
 }
 #about .profile-pic {
-   position: relative;
-   width: 120px;
-   height: 120px;
+   width: 300px;
+   height: 200px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -1009,3 +1008,4 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #fff; }
+
