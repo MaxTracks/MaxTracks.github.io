@@ -144,7 +144,7 @@ header .scrolldown a:hover { color: #fff; }
    left: 0;
    top: 0;
 }
-.opaque { background-color: #333; }
+.opaque { background-color: #455268; }
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
@@ -557,7 +557,7 @@ ul#nav li.current a { color: #f0ff00; }
    letter-spacing: 3px;
    cursor: pointer;
 }
-.popup-modal a:hover {	color: #00CCCC; }
+.popup-modal a:hover {	color: #f0ff00; }
 .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
 
 
@@ -932,7 +932,8 @@ call-to-action .button {
 footer {
    padding-top: 48px;
    margin-bottom: 48px;
-   color: #303030;
+   color: #fff;
+   background-color: #1C263C;
    font-size: 14px;
    text-align: center;
    position: relative;
@@ -959,7 +960,7 @@ footer .copyright li:before {
     content: "\2022";
     padding-left: 10px;
     padding-right: 10px;
-    color: #095153;
+    color: #fff;
 }
 footer .copyright  li:first-child:before {
     display: none;
